@@ -71,7 +71,7 @@ class _PDFViewerPageState extends State<PDFViewerPage> {
 
   Future<void> loadPdfFromNetwork() async {
     final url =
-        'https://dn790007.ca.archive.org/0/items/The_World_of_Interiors_October_2015_UK/The_World_of_Interiors_October_2015_UK.pdf';
+        'https://github.com/abhishekvashisht97/pdfviewer/blob/main/Interior.pdf';
     try {
       final Directory dir = await getApplicationDocumentsDirectory();
       final filename = basename(url);
