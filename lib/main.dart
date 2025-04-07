@@ -85,6 +85,10 @@ class _PDFViewerPageState extends State<PDFViewerPage> {
         isPdfLoaded = true;
       });
     } catch (e) {
+      setState(() {
+        isPdfLoaded = false;
+        pdfPath = null;
+      });
           }
   }
 
